@@ -39,7 +39,7 @@ for i in invite_userids:
             
 print('成功邀请%d位好友'%(mk))   
 
-SERVER_KEY = os.getenv('SCU129342T462706dfe945686c079d184f3cfc79b15fbc9659630a8')
+SERVER_KEY = os.getenv('SERVER_KEY')
 if SERVER_KEY:
     data = {
         'text':'WPS邀请好友任务：成功邀请到%d位好友'%(mk),
